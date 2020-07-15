@@ -55,7 +55,7 @@ if(isset($_POST['send']) && isset($_POST['phoneno']))
       CURLOPT_CUSTOMREQUEST => "POST",
       CURLOPT_POSTFIELDS => json_encode($field),
       CURLOPT_HTTPHEADER => array(
-        "authorization: CM9PjNmqh6gr5KAT8sXZeO0wpBxtavcIW3JdVlQnUELHSDo2f4jsge25yCdGiSWvk0MubxRzoJI43qfY",
+        "authorization: Your_API_Key",
         "cache-control: no-cache",
         "accept: */*",
         "content-type: application/json"
